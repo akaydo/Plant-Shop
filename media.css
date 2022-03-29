@@ -1,0 +1,154 @@
+
+@media(max-width: 1240px){
+    .slick-btn{
+        width: 255px;
+    }
+    .slick-btn:before{
+        left: 20%;
+    }
+    .slick-btn:after{
+        right: 15%;
+    }
+    .slick-prev {
+        right: 21%;
+        margin: 0 10px;
+    }
+}
+
+@media(max-width: 1092px){
+    .slick-btn span{
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .slick-btn{
+        height: 100px;
+        width: 210px;
+    }
+    .slick-btn:after{
+        right: 10%;
+    }
+    .slick-btn:before{
+        left: 17%;
+    }
+    .products__items{
+        justify-content: center;
+    }
+
+}
+
+@media(max-width: 947px){
+    .helprelax__img{
+        display: none;
+    }
+    .banner__title{
+        font-size: 33px;
+        line-height: 49px;
+        margin-bottom: 30px;
+    }
+    .banner__content{
+        padding: 45px 15px;
+        max-width: 578px;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 900px){
+    .item__body{
+        display: inline;
+    }
+    .info__img img{
+        display: block;
+        margin: 0 auto;
+    }
+    .info__content{
+        text-align: center;
+    }
+    .info__text{
+        margin-bottom: 30px;
+    }
+    .slick-next {
+        left: 50%;
+    }
+    .slick-prev {
+        right: 50%;
+    }
+    .slick-btn{
+        top: 100%;
+    }
+    .info{
+        margin-bottom: 140px;
+    }
+    .benefits__items{
+        justify-content: center;
+    }
+}
+
+@media(max-width: 540px){
+    .info__title{
+        font-size: 40px;
+        line-height: 55px;
+        padding: 15px;
+        margin-bottom: 0;
+    }
+    .helprelax__info{
+        margin-bottom: 20px;
+    }
+    .helprelax__info-title{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .footer__row{
+        display: block;
+        padding: 0 15px;
+    }
+    .footer{
+        padding-bottom: 30px;
+    } 
+}
+
+
+@media(max-width: 424px){
+    .slick-btn span{
+        display: none;
+    }
+    .slick-btn:after{
+        top: 55%;
+        right: 0;
+    }
+    .slick-btn:before{
+        top: 55%;
+        left: 9%;
+    }
+    .slick-btn{
+        height: 75px;
+        width: 170px;
+    }
+}
+
+@media(max-width: 420px){
+    .header__logo{
+        padding-right: 10px;
+    }
+    .header__menu-btn{
+        padding: 8px 10px;
+    }
+    .header__icons-icon{
+        margin-right: 10px;
+    }
+    .header{
+        margin: 25px 0 0 0;
+    }
+    .slick-btn{
+        font-size: 18px;
+        line-height: 18px;
+        width: 140px;
+    }
+    .slick-btn:after{
+        right: -10px;
+    }
+    .banner__title{
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+}
